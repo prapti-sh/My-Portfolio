@@ -76,7 +76,7 @@ export async function GET() {
 
     markdown += `\n## Contact & Links\n`;
     markdown += `- Email: prapti1199@gmail.com\n`;
-    markdown += `- LinkedIn: https://www.linkedin.com/in/prapti11/\n`;
+    markdown += `- LinkedIn: https://www.linkedin.com/in/prapti-sh/\n`;
     markdown += `- Instagram: https://www.instagram.com/_shah_prapti11/\n`;
 
     return new NextResponse(markdown, {

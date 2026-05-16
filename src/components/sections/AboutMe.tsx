@@ -58,10 +58,10 @@ export function AboutMe() {
                                 <Link href="https://github.com/Prapti1199" target="_blank" className="hover:text-foreground transition-colors flex items-center gap-2 group">
                                     <Github className="w-4 h-4 group-hover:scale-110 transition-transform" /> Github
                                 </Link>
-                                <Link href="https://linkedin.com/in/prapti1199" target="_blank" className="hover:text-foreground transition-colors flex items-center gap-2 group">
+                                <Link href="https://www.linkedin.com/in/prapti-sh/" target="_blank" className="hover:text-foreground transition-colors flex items-center gap-2 group">
                                     <Linkedin className="w-4 h-4 group-hover:scale-110 transition-transform" /> LinkedIn
                                 </Link>
-                                <Link href="mailto:prapti.shah04@gmail.com" className="hover:text-foreground transition-colors flex items-center gap-2 group">
+                                <Link href="mailto:prapti1199@gmail.com" className="hover:text-foreground transition-colors flex items-center gap-2 group">
                                     <Mail className="w-4 h-4 group-hover:scale-110 transition-transform" /> Email
                                 </Link>
                             </div>

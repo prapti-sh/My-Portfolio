@@ -25,7 +25,7 @@ export function Footer() {
                         <Github className="h-4 w-4" />
                     </Link>
                     <Link
-                        href="https://linkedin.com/in/prapti"
+                        href="https://www.linkedin.com/in/prapti-sh/"
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-input bg-background text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
@@ -34,7 +34,7 @@ export function Footer() {
                         <Linkedin className="h-4 w-4" />
                     </Link>
                     <Link
-                        href="mailto:prapti@example.com"
+                        href="mailto:prapti1199@gmail.com"
                         className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-input bg-background text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                         aria-label="Email"
                     >

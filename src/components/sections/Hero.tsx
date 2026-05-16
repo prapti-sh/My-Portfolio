@@ -101,7 +101,7 @@ export function Hero() {
                             <span className="sr-only">Instagram</span>
                         </Link>
                         <Link
-                            href="https://www.linkedin.com/in/prapti11/"
+                            href="https://www.linkedin.com/in/prapti-sh/"
                             target="_blank"
                             className="p-3 rounded-full bg-background border border-border/50 text-foreground/70 hover:text-blue-500 hover:border-blue-500/50 hover:bg-blue-500/5 transition-all group"
                         >
