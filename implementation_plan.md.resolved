@@ -1,0 +1,56 @@
+# Portfolio Next.js Implementation Plan
+
+## Goal Description
+Create a highly modern, responsive, and visually impressive personal portfolio using React and Next.js. The portfolio will feature both a standard website view (with sections like About Me, Tech Stack, Experience, Projects from GitHub, LinkedIn Certificates/Testimonials, Notion Notes, and Contact) and an innovative "LLM View" (a chat interface representing the user).
+
+## User Review Required
+> [!IMPORTANT]
+> **API Keys:** You will need to provide API keys to make some live integrations work:
+> 1. **GitHub API Token** (for Projects)
+> 2. **Notion API Token & Database ID** (for My Notes)
+> 3. **OpenAI or other LLM API Key** (for the LLM View chat interface)
+> 
+> *For now, I can build those sections with mocked data or set up the integrations so you can drop your keys in an `.env.local` file later.*
+>
+> **LinkedIn Integration:** LinkedIn does not offer a public API to easily fetch testimonials or certificates. I recommend we create a `data.ts` file to statically store this data for now, which we can display beautifully. Let me know if you are okay with static data for the LinkedIn portions!
+
+## Proposed Changes
+
+### 1. Project Initialization
+- Create a new Next.js 14 (App Router) project with Tailwind CSS and Framer Motion for premium animations.
+- Set up Lucide React for modern icons.
+
+### 2. Core Components
+#### [NEW] `components/layout/Navbar.tsx`
+Provides navigation between sections and a prominent toggle to switch to the "LLM View".
+#### [NEW] `components/layout/Footer.tsx`
+Houses social links (LinkedIn, Email, GitHub).
+#### [NEW] `data/portfolio-data.ts`
+Local static data for Experience, Certificates, and Testimonials.
+
+### 3. Standard View Sections
+#### [NEW] `components/sections/Hero.tsx`
+A visually stunning introduction ("About Me") with micro-animations.
+#### [NEW] `components/sections/TechStack.tsx`
+Animated grid displaying skills.
+#### [NEW] `components/sections/Experience.tsx`
+Timeline aesthetic showing career/experience.
+#### [NEW] `components/sections/Projects.tsx`
+Component that uses `fetch` to call the GitHub API and display pinned repositories or specific projects dynamically.
+#### [NEW] `components/sections/LinkedInHighlights.tsx`
+Beautiful cards for Certificates and Testimonials (statically provided in `data.ts`).
+#### [NEW] `components/sections/NotionNotes.tsx`
+Component that connects to Notion via their API to fetch and render recent notes/blogs.
+
+### 4. LLM View
+#### [NEW] `app/api/chat/route.ts`
+Route handler for communicating with an LLM (using Vercel AI SDK or similar) to provide answers about you.
+#### [NEW] `components/llm/ChatInterface.tsx`
+A full-page or modal chat UI allowing visitors to ask questions like "What are your skills?" and receive responses from the personalized LLM.
+
+## Verification Plan
+### Manual Verification
+- Start the Next.js development server (`npm run dev`).
+- Visually inspect the standard view for premium aesthetics (layout, typography, dark mode).
+- Verify the API integrations (GitHub) or that Mock data renders properly.
+- Verify the LLM chat mode toggles and functions (even if with a mocked response until keys are provided).

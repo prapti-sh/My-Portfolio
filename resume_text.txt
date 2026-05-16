@@ -1,0 +1,53 @@
+PRAPTI SHAH
+Pune |+91-7043535627 |prapti1199@gmail.com |linkedin/prapti11 |Github/Prapti1199
+Software developer with around 5 years of experience in customer-centric solutions. Skilled in both frontend and backend technologies.
+Proficient at collaborating with clients to create insightful and effective applications. Enthusiastic about leveraging technical abilities and a
+client-centered approach to make meaningful contributions to the organization.
+SKILLS
+Programming Languages : Java, Python, C, C++, JavaScript, SQL, shell script
+Web T echnologies : React.Js, HTML5, CSS3
+Frameworks : Spring boot, Junit, SLF4j, Gradle, Maven, Mockito, WebDriverIO, Pytest, Flask, FastAPI, Django, Jest, Selenium
+Cloud T echnologies : A WS, T erraform, Kubernetes, Splunk Cloud Services(SCS)
+T ools : Kafka, Prometheus, Grafana, Jenkins, Git, Gitlab, Docker, Postman, Jira, Confluence, CI/CD, NATS, Splunk, Sharepoint
+WORK EXPERIENCE
+Senior Software Engineer March 2025 – Present
+HCL TECH Pune
+− Contributed to modernization of T eam Global Express transportation legacy platform using React, and Python.
+− Developed Booking & Job Management modules including adhoc bookings, quotations, permanent recurring bookings, and quick job
+creation with automated driver allocation.
+− Implemented rate calculation and pricing workflows based on customer contracts, services, and legacy pricing algorithms.
+− Enabled multi-state operations across Australia with r ole-based access control for operational users.
+− Automated invoicing, reporting dashboards, and analytics for job tracking and financial insights.
+− Integrated real-time notifications via WebSockets and asynchronous processing using MQ queues and A QChatter services.
+− Achieved 80%+ automated test coverage using pytest and Jest .
+Senior Software Engineer April 2023 – March 2025
+Crest Data Ahmedabad
+− As a Subject Matter Expert led initiatives to deliver scalable solutions for premium clients, driving the transition from Splunk Realtime
+Search to Ad-hoc Search using Splunk ,Java , and Python .
+− Played a key role in the High Scale Event Analytics re-architecture project for Splunk Cloud Service (SCS) , which resulted in a 50%
+reduction in event processing latency for cloud customers. Responsibilities included managing resource allocation via A WS T erraform ,
+working on Maven Java projects, overseeing Kafka topics within Kubernetes services, and optimizing metrics collection with
+Prometheus and Grafana .
+− Independently led the end-to-end development of a UI feature inspired by a Splunk user idea to facilitate data export from the UI interface to
+CSV , and triggering action based on updates made by users and can be repeated according to user-defined criteria. This involved front-end
+development using React , back-end implementation with Python ,Java integration with Splunk , and testing using Jest ,W ebdriverIO , and
+Pytest .
+− Contributed to enhancing system performance and scalability by replacing real-time search with a NATS queue-based implementation
+Software Engineer May 2021 – March 2023
+Crest Data Ahmedabad
+− Managed Java -based Event Analytics within IT Service Intelligence, improving data grouping, monitoring, and overall system performance.
+− Optimized event action execution, reducing memory and CPU usage by 40% during event group processing.
+− Built integrations across React ,Python , and Java services connecting with Remedy and ServiceNow , improving event tracking and alert
+automation.
+− Resolved critical production security vulnerabilities affecting 10,000+ customers, including fixes for log4j and Jackson issues.
+− Resolved 70+ customer issues through direct technical engagement and troubleshooting.
+− Mentored team members and increased automated test coverage to 80%+ using WDIO ,Python ,JUnit , and Mockito .
+− Collaborated within cross-functional Agile teams to deliver high-quality software releases.
+ACHIEVEMENTS
+− A warded by Crest Achievement A ward (CAP) from 2021-2024 for detailed analysis and resolution of customer escalations and for leading
+ITSI EA ’s developements along with eﬀicient customer communications
+− A warded Certification of Appreciation from HCL T echnologies (T eam Global Express) for positivity and continuous dedication towards
+successful migration of legacy systems to the new platform.
+EDUCATION
+Chandubhai S. Patel Institute of T echnology (Charusat University) July 2017 - May 2021
+B.T ech Computer Engineering GP A : 9.54
