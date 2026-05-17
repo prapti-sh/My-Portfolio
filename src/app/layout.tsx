@@ -17,8 +17,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Prapti's Portfolio",
-  description: "Personal portfolio and LLM representation of Prapti",
+  title: "Prapti Shah | Software Engineer & Developer",
+  description: "Portfolio of Prapti Shah, a Software Engineer experienced in Java, Python, React, and building scalable digital experiences.",
+  keywords: ["Prapti Shah", "Software Engineer", "Developer", "React", "Java", "Python", "Portfolio", "Prapti"],
+  authors: [{ name: "Prapti Shah" }],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://prapti-sh.dev",
+    title: "Prapti Shah | Software Engineer",
+    description: "Portfolio of Prapti Shah, a Software Engineer experienced in Java, Python, React, and building scalable digital experiences.",
+    siteName: "Prapti Shah Portfolio"
+  }
 };
 
 export default function RootLayout({

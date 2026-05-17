@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function ProjectsPage() {
     return (
-        <main className="flex min-h-screen flex-col pt-16">
+        <main className="flex flex-col">
             <Projects />
         </main>
     );

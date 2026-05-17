@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
     return (
-        <main className="flex h-screen overflow-hidden flex-col pt-16">
+        <main className="flex flex-col pt-16">
             <AboutMe />
         </main>
     );

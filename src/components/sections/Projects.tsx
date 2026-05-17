@@ -22,7 +22,7 @@ const mockProjects: Repo[] = [
         id: 1,
         name: "LeetCode-Solutions",
         description: "A collection of my LeetCode solutions with approaches and explanations.",
-        html_url: "https://github.com/Prapti1199/LeetCode-Solutions",
+        html_url: "https://github.com/prapti-sh/LeetCode-Solutions",
         homepage: "",
         stargazers_count: 0,
         forks_count: 0,
@@ -32,7 +32,7 @@ const mockProjects: Repo[] = [
         id: 2,
         name: "Detecting-Duplicate-Questions-QA-Forums-",
         description: "Machine learning project built to detect and flag duplicate questions on Q&A forums.",
-        html_url: "https://github.com/Prapti1199/Detecting-Duplicate-Questions-QA-Forums-",
+        html_url: "https://github.com/prapti-sh/Detecting-Duplicate-Questions-QA-Forums-",
         homepage: "",
         stargazers_count: 0,
         forks_count: 0,
@@ -56,7 +56,7 @@ export function Projects() {
 
                 const responses = await Promise.all(
                     reposToFetch.map(repo =>
-                        fetch(`https://api.github.com/repos/Prapti1199/${repo}`)
+                        fetch(`https://api.github.com/repos/prapti-sh/${repo}`)
                     )
                 );
 
@@ -84,7 +84,7 @@ export function Projects() {
     }, []);
 
     return (
-        <section id="projects" className="py-16 md:py-24 relative overflow-hidden">
+        <section id="projects" className="py-10 md:py-10 relative ">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
                     <motion.div
@@ -95,14 +95,14 @@ export function Projects() {
                         className="text-center w-full flex flex-col items-center"
                     >
                         <h2 className="text-4xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 via-amber-600 to-amber-700 dark:from-white dark:via-blue-200 dark:to-blue-500 tracking-tight flex items-center justify-center gap-3 drop-shadow-sm w-full mx-auto">
-                            <FolderGit2 className="h-8 w-8 text-blue-500 dark:text-blue-400" />
+                            <FolderGit2 className="h-8 w-8 text-orange-500 dark:text-blue-400" />
                             Featured Projects
                         </h2>
                         <p className="text-foreground/70 max-w-2xl mb-4">
                             Some of my recent open-source work and personal experiments.
                         </p>
                         <Link
-                            href="https://github.com/Prapti1199"
+                            href="https://github.com/prapti-sh"
                             target="_blank"
                             className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
                         >
@@ -111,28 +111,6 @@ export function Projects() {
                         </Link>
                     </motion.div>
 
-                    <motion.div
-                        initial={{ opacity: 0, x: 20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5, delay: 0.2 }}
-                        className="flex items-center justify-center md:justify-end bg-black/5 dark:bg-white/5 backdrop-blur-sm border border-black/10 dark:border-white/10 rounded-lg p-1 shadow-sm w-fit mx-auto md:mx-0"
-                    >
-                        <button
-                            onClick={() => setViewMode("grid")}
-                            className={`p-2 rounded-md transition-colors ${viewMode === "grid" ? "bg-black/10 dark:bg-white/20 text-foreground" : "text-foreground/60 hover:text-foreground hover:bg-black/5 dark:hover:bg-white/10"}`}
-                            aria-label="Grid view"
-                        >
-                            <LayoutGrid className="w-5 h-5" />
-                        </button>
-                        <button
-                            onClick={() => setViewMode("list")}
-                            className={`p-2 rounded-md transition-colors ${viewMode === "list" ? "bg-black/10 dark:bg-white/20 text-foreground" : "text-foreground/60 hover:text-foreground hover:bg-black/5 dark:hover:bg-white/10"}`}
-                            aria-label="List view"
-                        >
-                            <List className="w-5 h-5" />
-                        </button>
-                    </motion.div>
                 </div>
 
                 {loading ? (
@@ -140,7 +118,7 @@ export function Projects() {
                         <div className="h-8 w-8 animate-spin rounded-full border-4 border-primary border-t-transparent" />
                     </div>
                 ) : (
-                    <div className={viewMode === "grid" ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" : "flex flex-col gap-4 max-w-5xl mx-auto"}>
+                    <div className={viewMode === "grid" ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6" : "flex flex-col gap-4 max-w-5xl mx-auto"}>
                         {projects.map((project, index) => (
                             <motion.div
                                 key={project.id}

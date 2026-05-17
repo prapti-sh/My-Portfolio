@@ -8,7 +8,7 @@ const awardsData = [
         title: "Certificate of appreciation",
         date: "Nov 2025",
         company: "HCLTech",
-        description: "",
+        description: "Received appreciation for my incredible contribution towards the migration of the legacy application to modern React, Python, and Next.js applications. Honored for my positive attitude and contagious contribution.",
     },
     {
         title: "Crest Achievement Program (CAP)",

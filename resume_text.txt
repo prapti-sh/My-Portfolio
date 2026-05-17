@@ -1,5 +1,5 @@
 PRAPTI SHAH
-Pune |+91-7043535627 |prapti1199@gmail.com |linkedin/prapti11 |Github/Prapti1199
+Pune |+91-7043535627 |prapti1199@gmail.com |linkedin/prapti-sh |Github/prapti-sh
 Software developer with around 5 years of experience in customer-centric solutions. Skilled in both frontend and backend technologies.
 Proficient at collaborating with clients to create insightful and effective applications. Enthusiastic about leveraging technical abilities and a
 client-centered approach to make meaningful contributions to the organization.
@@ -46,8 +46,7 @@ automation.
 ACHIEVEMENTS
 − A warded by Crest Achievement A ward (CAP) from 2021-2024 for detailed analysis and resolution of customer escalations and for leading
 ITSI EA ’s developements along with eﬀicient customer communications
-− A warded Certification of Appreciation from HCL T echnologies (T eam Global Express) for positivity and continuous dedication towards
-successful migration of legacy systems to the new platform.
+− A warded Certification of Appreciation from HCL T echnologies (T eam Global Express) for incredible contribution towards the migration of the legacy application to modern React, Python and Next app. Recognized for my positive attitude and contagious contribution.
 EDUCATION
 Chandubhai S. Patel Institute of T echnology (Charusat University) July 2017 - May 2021
 B.T ech Computer Engineering GP A : 9.54
