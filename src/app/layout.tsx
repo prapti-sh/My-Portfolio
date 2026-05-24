@@ -24,7 +24,10 @@ export const metadata: Metadata = {
   keywords: ["Prapti Shah", "Software Engineer", "Developer", "React", "Java", "Python", "Portfolio", "Prapti"],
   authors: [{ name: "Prapti Shah" }],
   icons: {
-    icon: "/icon.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" }
+    ],
     apple: "/icon.png"
   },
   openGraph: {
