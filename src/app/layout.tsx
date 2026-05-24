@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   description: "Portfolio of Prapti Shah, a Software Engineer experienced in Java, Python, React, and building scalable digital experiences.",
   keywords: ["Prapti Shah", "Software Engineer", "Developer", "React", "Java", "Python", "Portfolio", "Prapti"],
   authors: [{ name: "Prapti Shah" }],
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png"
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
